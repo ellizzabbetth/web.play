@@ -1,15 +1,22 @@
 package apps101.web.play;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.webkit.WebView;
 
 public class MainActivity extends Activity {
-
+	WebView myWebView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Find webView1
+        myWebView = (WebView) findViewById(R.id.webView1);
+   myWebView.getSettings().setBuiltInZoomControls(true);
+   myWebView.getSettings().setJavaScriptEnabled(true);
+        // Open asset/index.html
+        myWebView.loadUrl("file:///android_asset/waroftheworlds.html");
     }
 
 
