@@ -27,7 +27,30 @@
         </activity>
         <activity
             android:name="apps101.web.play.NasaActivity"
-            android:label="@string/title_activity_nasa" >
+            android:label="@string/title_activity_nasa" 
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="apps101.web.play.JabberwockyActivity"
+            android:label="@string/title_activity_jabberwocky" 
+            android:screenOrientation="portrait" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="apps101.web.play.RoundballActivity"
+            android:label="@string/title_activity_roundball" 
+            android:screenOrientation="portrait" >
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
