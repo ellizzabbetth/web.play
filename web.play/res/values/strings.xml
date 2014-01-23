@@ -7,5 +7,7 @@
     <string name="title_activity_nasa">0g</string>
     <string name="title_activity_jabberwocky">Jabberwocky</string>
     <string name="title_activity_roundball">RoundballActivity</string>
+    <string name="jab_wiki_button_text">Wikipedia</string>
+    <string name="jab_image_button_text">View the Jabberwocky</string>
 
 </resources>
