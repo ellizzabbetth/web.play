@@ -6,11 +6,12 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.webkit.WebView;
 
-public class MainActivity extends Activity {
+public class WarActivity extends Activity {
 	WebView myWebView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+       
         setContentView(R.layout.activity_main);
         // Find webView1
         myWebView = (WebView) findViewById(R.id.webView1);
