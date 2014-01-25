@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".JabberwockyActivity" >
+
+
+
+
+ 
+     <LinearLayout
+         android:id="@+id/jabber_buttons"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+ 	     android:layout_alignParentBottom="true">
+    <Button 
+        android:id="@+id/jabber_wiki_button_id" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1" 
+        android:onClick="openWiki"
+        android:text="Read more">
+    </Button>
+    <Button 
+        android:id="@+id/jabber_image_button_id" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="openJabberImage" 
+        android:text="View Jabberwocky">
+    </Button>
+     </LinearLayout>
+ 
+ 
+  <WebView
+     android:id="@+id/webView1"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_above="@id/jabber_buttons"
+       android:layout_marginBottom="20dip"
+      />
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+
+</RelativeLayout>
