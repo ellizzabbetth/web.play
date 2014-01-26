@@ -13,15 +13,10 @@ public class RoundballActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		 myWebView =(WebView) findViewById(R.id.webView1);
-		myWebView.getSettings().setBuiltInZoomControls(true);
-		myWebView.getSettings().setDomStorageEnabled(true);
-		
-		 
-//webkit.getSettings().setBuiltInZoomControls(true);
-//webkit.getSettings().setJavaScriptEnabled(true);
-myWebView.loadUrl("file:///android_asset/roundball/roundball.html");
-//myWebView.setWebViewClient(new WebViewClient());
+		 myWebView =(WebView) findViewById(R.id.webView1);	
+		myWebView.getSettings().setDomStorageEnabled(true); 
+		myWebView.getSettings().setJavaScriptEnabled(true);
+		myWebView.loadUrl("file:///android_asset/roundball/roundball.html");
 		 
 	}
 
