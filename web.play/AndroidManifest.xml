@@ -32,7 +32,7 @@
             android:taskAffinity="apps101.web.play.NasaActivity">
             <intent-filter>
             
-        		 <action android:name="android.intent.action.MAIN" />
+        		<action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -43,7 +43,7 @@
             android:taskAffinity="apps101.web.play.JabberwockyActivity">
             <intent-filter>
           
-         <action android:name="android.intent.action.MAIN" />
+         		<action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -54,7 +54,7 @@
             android:taskAffinity="apps101.web.play.RoundballActivity">
             <intent-filter>
                
-	          <action android:name="android.intent.action.MAIN" />
+	            <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

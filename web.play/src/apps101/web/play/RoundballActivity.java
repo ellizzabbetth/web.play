@@ -13,7 +13,7 @@ public class RoundballActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		 myWebView =(WebView) findViewById(R.id.webView1);	
+		myWebView =(WebView) findViewById(R.id.webView1);	
 		myWebView.getSettings().setDomStorageEnabled(true); 
 		myWebView.getSettings().setJavaScriptEnabled(true);
 		myWebView.loadUrl("file:///android_asset/roundball/roundball.html");
